@@ -17,6 +17,12 @@ set laststatus=2
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+set tabstop=4
+set shiftwidth=4
+set expandtab
+imap jk <Esc>
+cd ~/.vim/bundle
+"git clone git://github.com/Lokaltog/vim-powerline.git
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
